@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+
+ul {
+    display: flex;
+    width: 600px;
+    background-color: #C4C4C4;
+    justify-content: space-around;
+}
+
+header{
+    padding: 50px; 
+    background-color: #C4C4C4;
+    
+}
+
+.shuacharcho {
+    width: 100%;
+    height: 400px;
+    background-color: #3D3D3D ;
+    margin-bottom: 133px;
+    
+}
+
+.slider {
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    padding-top: 150px;
+    
+}
+
+.artiklebi {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+}
+.mshobelidiv {
+    width: 33.33%;
+    margin-bottom: 50px;    
+}
+
+
+
+.color1 {
+    background-color: #FF9900;
+}
+
+.color2 {
+    background-color: #FFC700;
+}
+
+.color3 {
+    background-color: #FFE600;
+}
+
+.pirveli {
+    font-size: 18px;
+    margin: 10px 0px;
+    padding-left: 10px;
+}
+.siaxle {
+    font-size: 12px;
+    height: 100px;
+    overflow: hidden;
+    margin: 10px 0px;
+    padding-left: 10px;
+}
+
+.gagrdzeleba{
+    font-size: 12px;
+    display: block;
+    padding: 10px 0px 10px 10px;
+}
+
+
+
+  
+
+
+.saboloo {
+    clear: both;
+    font-size: 12px;
+    margin: 30px 30px;
+    
+}
+
+
+
+
+.dabrunebamtavarze {
+    font-size: 12px;
+    
+}
+.kvadrati {
+    width: 90%;  
+    margin: 20px auto;
+    padding: 30px 0px;
+
+}
+
+.picture {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+
+}
+
+.n1 {
+    background-color: #FFC700;
+}
+
+.n2 {
+    
+    background-color: #FFE600;
+}
+
+.n3 {
+    background-color: #FF9900;
+}
+
+
+.satauri1 {
+    font-size: 18px;
+    color: #000000;
+    padding-left: 30px;
+    padding-bottom: 20px;
+
+}
+
+.text {
+    font-size: 14px;
+    clear: both;
+    width: 90%;
+    margin: 20px auto;
+    
+
+}
+
+
+
+.surati{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+.surati img{
+    width: 200%;
+    
+}
+.suratisshemotana {
+    width: 33.33%;
+    overflow: hidden;
+    height: 200px;   
+    margin-bottom: 30px;
+
+}
+
+.suratisshemotana img {
+    width: 100%;
+}
+.mtavari {
+    display: block;
+    margin: 30px 30px;
+}
+
+.mtavari a {
+    color: #000000;
+
+}
+
+.mtavari a:hover{
+    color: rgb(99, 103, 109);
+}
+
+
+
+
+@media only screen and (max-width: 390px) {
+    header ul {
+        width: 100%;
+        flex-direction: column;
+    }
+    header ul li {
+    
+        font-size: 10px;
+        margin: 5px;
+    }
+    header nav {
+        width: 100%;
+        
+    }
+
+    .artiklebi{
+        flex-direction: column;
+        
+    }
+
+    .mshobelidiv {
+        width: 90%;
+    }
+    .surati img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .kvadrati {
+        width: 90%;
+        
+    }
+
+    .suratisshemotana {
+        width: 320px;
+        
+    }
+
+    .picture{
+        flex-direction: column;
+    }
+}
+
